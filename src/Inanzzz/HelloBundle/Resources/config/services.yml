@@ -1,0 +1,7 @@
+services:
+#    inanzzz_hello.example:
+#        class: Inanzzz\HelloBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+    inanzzz_hello.util.hello:         #inanzzz_hello must match DependencyInjection/Configuration.php line $treeBuilder->root('xxxxxxxx');
+        class: Inanzzz\HelloBundle\Util\Hello
